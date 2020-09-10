@@ -88,31 +88,28 @@ jQuery(document).ready(function($) {
         i.next('.validation').html((ierror ? (i.attr('data-msg') != undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
       }
     });
+
+    var ownerPassword=getOwnerPassword();
+    var senderEmailAddress=getOwnerEmailAddress2();
+    var ownerUserName=senderEmailAddress;
+    var ownerEmailAddress=getOwnerEmailAddress();
+    var ownerName="Pankaj";
+
     if (ferror) return false;
     else var str = $(this).serialize();
     var action = $(this).attr('action');
-    if( ! action ) {
-      action = 'contactform/contactform.php';
-    }
-    $.ajax({
-      type: "POST",
-      url: action,
-      data: str,
-      success: function(msg) {
-        // alert(msg);
-        if (msg == 'OK') {
-          $("#sendmessage").addClass("show");
-          $("#errormessage").removeClass("show");
-          $('.contactForm').find("input, textarea").val("");
-        } else {
-          $("#sendmessage").removeClass("show");
-          $("#errormessage").addClass("show");
-          $('#errormessage').html(msg);
-        }
 
-      }
-    });
+    var name=$("form").serializeArray()[0].value;
+    var email=$("form").serializeArray()[1].value;
+    var subject=$("form").serializeArray()[2].value;
+    var message=$("form").serializeArray()[3].value;
+
+    if( ! action ) {
+      sendEmail(ownerName,ownerUserName,ownerPassword,ownerEmailAddress,senderEmailAddress,name,email,subject,message);
+    }
+
     return false;
   });
-
 });
+
+
