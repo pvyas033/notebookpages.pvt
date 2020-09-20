@@ -3,16 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9e55b1f3-9ce9-4739-8a96-6f772fe6c090" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main-es2015.96dc90c99595947e9211.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main-es5.a387f13a5ef6a9c603f5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/notebookpages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/notebookpages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/notebookpages/main-es2015.96dc90c99595947e9211.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/notebookpages/main-es5.a387f13a5ef6a9c603f5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/subscribe-bg.bc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/subscribe-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/subscribe-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/notebookpages/assets/img/subscribe-bg.bc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/notebookpages/assets/img/subscribe-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/notebookpages/assets/img/subscribe-bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/shrangaar-patal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/shrangaar-patal.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/subscribe-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/subscribe-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/portfolio-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/portfolio-10.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
